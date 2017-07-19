@@ -11,9 +11,12 @@ import { ngAudio } from 'angular-audio';
 
 export class EpisodesComponent implements OnInit {
 
+   
+
   constructor() { }
 
   ngOnInit() {
+      
   }
 
 }

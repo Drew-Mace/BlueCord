@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Lazer84",
+      "appliesTo": "src/assets/fonts/Lazer84.ttf",
+      "type": "command"
+    }
+  ]
+}

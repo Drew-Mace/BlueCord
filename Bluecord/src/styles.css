@@ -1,5 +1,17 @@
 ﻿body {
   background: #464646;
   color: white;
+  
+}
+
+@font-face {
+  font-family: 'Dekar';
+  src: url("/app/fonts/Dekar.otf");
+}
+
+table {
+  margin: 0px auto;
+  width: auto !important;
+
 }
 

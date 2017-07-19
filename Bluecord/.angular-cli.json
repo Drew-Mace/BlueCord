@@ -1,35 +1,37 @@
 ﻿{
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "project": {
-    "name": "bluecord"
-  },
   "apps": [
     {
-      "root": "src",
-      "outDir": "dist",
       "assets": [
         "assets",
         "favicon.ico"
       ],
-      "index": "index.html",
-      "main": "main.ts",
-      "polyfills": "polyfills.ts",
-      "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
-      "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css"
-      ],
-      "scripts": [  ],
-      "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "environmentSource": "environments/environment.ts",
+      "index": "index.html",
+      "main": "main.ts",
+      "outDir": "dist",
+      "polyfills": "polyfills.ts",
+      "prefix": "app",
+      "root": "src",
+      "scripts": [],
+      "styles": [
+        "../node_modules/font-awesome/css/font-awesome.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+      "test": "test.ts",
+      "testTsconfig": "tsconfig.spec.json",
+      "tsconfig": "tsconfig.app.json"
     }
   ],
+  "defaults": {
+    "component": {},
+    "styleExt": "css"
+  },
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
@@ -46,13 +48,12 @@
       "project": "e2e/tsconfig.e2e.json"
     }
   ],
+  "project": {
+    "name": "bluecord"
+  },
   "test": {
     "karma": {
       "config": "./karma.conf.js"
     }
-  },
-  "defaults": {
-    "styleExt": "css",
-    "component": {}
   }
 }

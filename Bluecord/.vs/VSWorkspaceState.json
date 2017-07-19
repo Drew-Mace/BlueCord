@@ -4,8 +4,11 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\episodes",
-    "\\src\\app\\home"
+    "\\src\\app\\home",
+    "\\src\\assets",
+    "\\src\\assets\\audio",
+    "\\src\\assets\\images"
   ],
-  "SelectedNode": "\\src\\styles.css",
+  "SelectedNode": "\\src\\app\\app.component.css",
   "PreviewInSolutionExplorer": false
 }

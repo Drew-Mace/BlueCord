@@ -7,8 +7,9 @@
     "\\src\\app\\home",
     "\\src\\assets",
     "\\src\\assets\\audio",
+    "\\src\\assets\\fonts",
     "\\src\\assets\\images"
   ],
-  "SelectedNode": "\\src\\app\\home\\home.component.css",
+  "SelectedNode": "\\src\\styles.css",
   "PreviewInSolutionExplorer": false
 }

@@ -1,12 +1,7 @@
 ﻿body {
-  background: #464646;
+  background: #222222;
   color: white;
   
-}
-
-@font-face {
-  font-family: 'Dekar';
-  src: url("/app/fonts/Dekar.otf");
 }
 
 table {

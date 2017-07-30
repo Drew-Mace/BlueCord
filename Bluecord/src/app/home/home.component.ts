@@ -9,9 +9,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
+
+
 
   ngOnInit() {
   }
 
 }
+
+

@@ -4,6 +4,10 @@
   width: 700px;
 }
 
+table {
+  color: white;
+}
+
 h1 {
   font-family: 'Days One';
 }

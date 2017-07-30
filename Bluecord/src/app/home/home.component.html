@@ -1,4 +1,5 @@
-﻿<img src="/assets/images/bluecordlogo.png" alt="logo" class="center-block logo" />
+﻿<div class="unmute" onclick="document.getElementById('audio').muted = !document.getElementById('audio').muted;$(this).toggleClass('mute')"></div>
+<img src="/assets/images/bluecordlogo1.png" alt="logo" class="center-block logo img-responsive" />
 <div class="fullscreen-bg">
   <video loop muted autoplay class="fullscreen-bg__video">
     <source src="/assets/images/viday.mp4" type="video/webm">
@@ -6,6 +7,18 @@
 </div>
 
 
-<audio src="/assets/audio/bodiesonbay.m4a" autoplay="autoplay">
+<header class="section-header animate-item animate">
+  <h1 style="display: none!important;">News</h1>
+  <ul>
+    <li>n</li>
+    <li>e</li>
+    <li>w</li>
+    <li>s</li>
+  </ul>
+</header>
+
+<audio id="audio" autoplay="autoplay">
+  <source src="/assets/audio/bodiesonbay.m4a" type="audio/mp4" />
   <p>Yes you need a new browser. Come back later kid.</p>
 </audio>
+

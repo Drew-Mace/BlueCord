@@ -1,5 +1,6 @@
 ﻿body {
   background: #222222;
+  overflow: scroll;
   color: white;
   
 }
@@ -9,4 +10,8 @@ table {
   width: auto !important;
 
 }
+
+
+
+
 
